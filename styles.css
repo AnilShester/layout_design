@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto ', sans-serif;
+  background-color: #252530;
 }
 
 .header__nav {
@@ -15,61 +16,81 @@ body {
   align-items: center;
   justify-content: space-evenly;
   height: 5em;
-  background-color: antiquewhite;
 }
 
 .header__nav img {
   height: 2.5em;
-  background-color: black;
 }
 
 .header__nav__ul {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 1.5em;
   list-style-type: none;
   font-size: 1.2em;
   font-weight: 600;
-  color: #3e3e5f;
+  color: aliceblue;
+  letter-spacing: 0.05em;
 }
 
 .main {
   display: grid;
   gap: 1em;
-  width: 90%;
-  margin: 5em auto;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
   grid-template-areas:
-    'item item1 item2'
-    'item item3 item4';
+    'item1 item1 item2 item3'
+    'item1 item1 item4 item5';
 }
 
 .main__article:nth-child(1) {
-  grid-area: item;
-  background-color: #3e3e5f;
+  grid-area: item1;
+  background: url(assets/livingroom.webp);
+  background-position: center;
+  background-size: contain;
 }
 .main__article:nth-child(2) {
-  grid-area: item1;
+  grid-area: item2;
+  background: url(assets/basketball.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.main__article:nth-child(2) {
-  grid-area: item1;
+
+.main__article:nth-child(3) {
+  grid-area: item3;
+  background: url(assets/workspace.webp);
+  background-position: top;
+  background-size: cover;
 }
-.main__article:nth-child(2) {
-  grid-area: item1;
+.main__article:nth-child(4) {
+  grid-area: item4;
+  background: url(assets/furniture.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.main__article:nth-child(2) {
-  grid-area: item1;
+.main__article:nth-child(5) {
+  grid-area: item5;
+  background: url(assets/museum.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .main__article {
-  min-height: 200px;
+  min-height: 300px;
   border-radius: 1em;
-  padding: 2em;
+  /* padding: 2em; */
+}
+
+.main__article:hover {
+  transform: translate(0, -5px);
+  transition: 0.2s ease-in-out;
 }
 
 .section-1,
 .section-2,
 .section-3 {
-  width: 70%;
+  width: 65%;
   margin: auto;
   background-color: aquamarine;
   min-height: 600px;
@@ -80,7 +101,7 @@ body {
 }
 
 .earlier-articles {
-  width: 70%;
+  width: 65%;
   margin: auto;
 }
 
