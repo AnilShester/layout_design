@@ -16,27 +16,29 @@ Responsive design uisng flexbox and grid. Implementing animation and styling usi
 
 ## Project structure
 
-C:.
-│ index.html
-│ README.md
-│ styles.css
+```
+.
+│   index.html
+│   README.md
+│   styles.css
 │
 └───assets
-basketball.jpg
-bathroom.jpg
-cafe.jpeg
-facebook.svg
-furniture.jpg
-github.svg
-instagram.svg
-livingroom.webp
-maido.svg
-museum.jpg
-office.webp
-restaurant.jpg
-restaurant2.jpg
-restaurant3.jpg
-twitter.svg
-workspace.webp
+        basketball.jpg
+        bathroom.jpg
+        cafe.jpeg
+        facebook.svg
+        furniture.jpg
+        github.svg
+        instagram.svg
+        livingroom.webp
+        maido.svg
+        museum.jpg
+        office.webp
+        restaurant.jpg
+        restaurant2.jpg
+        restaurant3.jpg
+        twitter.svg
+        workspace.webp
+```
 
 ## Result
